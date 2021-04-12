@@ -1,0 +1,677 @@
+{
+    "Aechmea gamosepala": {
+        "Anzahl": 1,
+        "Gattung": "Bromelie",
+        "ID": 122
+    },
+    "Aerangis kirkii": {
+        "Anzahl": 1,
+        "Gattung": "Aerangis",
+        "ID": 15
+    },
+    "Aerides houlletiana": {
+        "Anzahl": 1,
+        "Gattung": "Aerides",
+        "ID": 8
+    },
+    "Ascocentrum miniatum x Doritis pulcherrima": {
+        "Anzahl": 2,
+        "Gattung": "Ascocentrum",
+        "ID": 25
+    },
+    "Ascocentrum miniatutum": {
+        "Anzahl": 1,
+        "Gattung": "Vanda",
+        "ID": 140
+    },
+    "Barkeria spectabilis": {
+        "Anzahl": 1,
+        "Gattung": "Barkeria",
+        "ID": 154
+    },
+    "Beallara Patricia Mc Cully": {
+        "Anzahl": 1,
+        "Gattung": "Beallara",
+        "ID": 146
+    },
+    "Bifrenaria harrisoniae": {
+        "Anzahl": 1,
+        "Gattung": "Bifrenaria",
+        "ID": 109
+    },
+    "Brassavola nodosa": {
+        "Anzahl": 1,
+        "Gattung": "Brassavola",
+        "ID": 53
+    },
+    "Brassia (gross)": {
+        "Anzahl": 1,
+        "Gattung": "Brassia",
+        "ID": 38
+    },
+    "Brassia Hybrid": {
+        "Anzahl": 1,
+        "Gattung": "Brassia",
+        "ID": 35
+    },
+    "Bulbophyllum fascinator": {
+        "Anzahl": 1,
+        "Gattung": "Bulbophyllum",
+        "ID": 17
+    },
+    "Bulbophyllum grandiflorum": {
+        "Anzahl": 1,
+        "Gattung": "Bulbophyllum",
+        "ID": 19
+    },
+    "Bulbophyllum graveolens": {
+        "Anzahl": 1,
+        "Gattung": "Bulbophyllum",
+        "ID": 20
+    },
+    "Bulbophyllum lepidum": {
+        "Anzahl": 1,
+        "Gattung": "Bulbophyllum",
+        "ID": 115
+    },
+    "Bulbophyllum lobbii": {
+        "Anzahl": 1,
+        "Gattung": "Bulbophyllum",
+        "ID": 43
+    },
+    "Bulbophyllum macranthum": {
+        "Anzahl": 1,
+        "Gattung": "Bulbophyllum",
+        "ID": 18
+    },
+    "Bulbophyllum medusae": {
+        "Anzahl": 1,
+        "Gattung": "Bulbophyllum",
+        "ID": 12
+    },
+    "Bulbophyllum rothschildianum": {
+        "Anzahl": 1,
+        "Gattung": "Bulbophyllum",
+        "ID": 13
+    },
+    "Bulbophyllum sumatranum": {
+        "Anzahl": 1,
+        "Gattung": "Bulbophyllum",
+        "ID": 14
+    },
+    "Catasetum fimbriatum": {
+        "Anzahl": 0,
+        "Gattung": "Catasetum",
+        "ID": 49
+    },
+    "Catasetum saccatum": {
+        "Anzahl": 1,
+        "Gattung": "Catasetum",
+        "ID": 135
+    },
+    "Catasetum tenebrosum": {
+        "Anzahl": 1,
+        "Gattung": "Catasetum",
+        "ID": 51
+    },
+    "Cattleya dowiana": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 74
+    },
+    "Cattleya labiata": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 130
+    },
+    "Cattleya leopoldii": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 151
+    },
+    "Cattleya lueddemaniana": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 152
+    },
+    "Cattleya lueddemanniana": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 141
+    },
+    "Cattleya rex": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 72
+    },
+    "Cattleya schilleriana": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 137
+    },
+    "Cattleya trianae": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 153
+    },
+    "Cattleya varut x mari's song": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 75
+    },
+    "Cattleya warscewiczii": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 111
+    },
+    "Chysis limminghei": {
+        "Anzahl": 1,
+        "Gattung": "Chysis",
+        "ID": 133
+    },
+    "Coelogyne cristata": {
+        "Anzahl": 1,
+        "Gattung": "Coelogyne",
+        "ID": 27
+    },
+    "Coelogyne dayana": {
+        "Anzahl": 1,
+        "Gattung": "Coelogyne",
+        "ID": 68
+    },
+    "Coelogyne mooreana x ochracea": {
+        "Anzahl": 1,
+        "Gattung": "Coelogyne",
+        "ID": 107
+    },
+    "Coelogyne speciosa": {
+        "Anzahl": 1,
+        "Gattung": "Coelogyne",
+        "ID": 125
+    },
+    "Coelogyne usitana x merilli": {
+        "Anzahl": 1,
+        "Gattung": NaN,
+        "ID": 150
+    },
+    "Cycnoches TIDC Purple Frilled Lizard Organe Coffee": {
+        "Anzahl": 1,
+        "Gattung": "Catasetum",
+        "ID": 124
+    },
+    "Cycnodes Taiwan Gold 'Orange'": {
+        "Anzahl": 1,
+        "Gattung": "Catasetum",
+        "ID": 143
+    },
+    "Cymbidium Hybrid": {
+        "Anzahl": 1,
+        "Gattung": "Cymbidium",
+        "ID": 100
+    },
+    "Cymbidium Mainau": {
+        "Anzahl": 2,
+        "Gattung": "Cymbidium",
+        "ID": 101
+    },
+    "Cymbidium ice cascade": {
+        "Anzahl": 1,
+        "Gattung": "Cymbidium",
+        "ID": 103
+    },
+    "Dendrobium Arco Pearl": {
+        "Anzahl": 6,
+        "Gattung": "Dendrobium",
+        "ID": 71
+    },
+    "Dendrobium Dragon Jade No.1": {
+        "Anzahl": 1,
+        "Gattung": "Dendrobium",
+        "ID": 134
+    },
+    "Dendrobium Touch of Gold": {
+        "Anzahl": 1,
+        "Gattung": "Dendrobium",
+        "ID": 83
+    },
+    "Dendrobium aphyllum": {
+        "Anzahl": 1,
+        "Gattung": "Dendrobium",
+        "ID": 9
+    },
+    "Dendrobium findlayanum": {
+        "Anzahl": 1,
+        "Gattung": "Dendrobium",
+        "ID": 69
+    },
+    "Dendrobium kingianum": {
+        "Anzahl": 4,
+        "Gattung": "Dendrobium ",
+        "ID": 32
+    },
+    "Dendrobium smillieae": {
+        "Anzahl": 1,
+        "Gattung": "Dendrobium",
+        "ID": 41
+    },
+    "Dendrobium speciosum": {
+        "Anzahl": 1,
+        "Gattung": "Dendrobium",
+        "ID": 47
+    },
+    "Dendrobium spectabile x aberans": {
+        "Anzahl": 1,
+        "Gattung": "Dendrobium",
+        "ID": 42
+    },
+    "Dendrobium thyrsiflorum": {
+        "Anzahl": 1,
+        "Gattung": "Dendrobium",
+        "ID": 82
+    },
+    "Dendrochilum latifolium var macranthum": {
+        "Anzahl": 1,
+        "Gattung": "Dendrochilum",
+        "ID": 46
+    },
+    "Encyclia cochleata": {
+        "Anzahl": 1,
+        "Gattung": "Encyclia",
+        "ID": 77
+    },
+    "Encyclia mariae": {
+        "Anzahl": 1,
+        "Gattung": "Encyclia",
+        "ID": 52
+    },
+    "Epidendrum citrate": {
+        "Anzahl": 1,
+        "Gattung": "Epidendrum",
+        "ID": 110
+    },
+    "Fredclarkeara After Dark 'SVO Black Pearl' FCC/AOS": {
+        "Anzahl": 1,
+        "Gattung": "Catasetum",
+        "ID": 136
+    },
+    "Gongora galeata": {
+        "Anzahl": 1,
+        "Gattung": "Gongora",
+        "ID": 50
+    },
+    "Grammatophyllum tiger": {
+        "Anzahl": 1,
+        "Gattung": "Grammatophyllum",
+        "ID": 67
+    },
+    "Guzmania sanguinea": {
+        "Anzahl": 1,
+        "Gattung": "Bromelie",
+        "ID": 116
+    },
+    "Laelia grandis": {
+        "Anzahl": 1,
+        "Gattung": "Laelia",
+        "ID": 131
+    },
+    "Laelia tenebrosa": {
+        "Anzahl": 1,
+        "Gattung": "Laelia",
+        "ID": 73
+    },
+    "Ludisia discolor": {
+        "Anzahl": 1,
+        "Gattung": "Ludisia",
+        "ID": 84
+    },
+    "Marcgravia sintenisii": {
+        "Anzahl": 1,
+        "Gattung": "Rankpflanze",
+        "ID": 117
+    },
+    "Masdevalia Hybrid (gelb)": {
+        "Anzahl": 1,
+        "Gattung": "Masdevalia",
+        "ID": 44
+    },
+    "Maxillaria tenuifolia": {
+        "Anzahl": 1,
+        "Gattung": "Maxillaria",
+        "ID": 31
+    },
+    "Maxillaria variabilis": {
+        "Anzahl": 1,
+        "Gattung": "Maxillaria",
+        "ID": 30
+    },
+    "Microsorum thailandicum": {
+        "Anzahl": 1,
+        "Gattung": "Farn",
+        "ID": 118
+    },
+    "Miltonia Goodale Moir": {
+        "Anzahl": 3,
+        "Gattung": "Miltonia",
+        "ID": 105
+    },
+    "Miltonia Honolulu I": {
+        "Anzahl": 3,
+        "Gattung": "Miltonia",
+        "ID": 39
+    },
+    "Monnierara Millennium Magic Witchcraft AM/AOS": {
+        "Anzahl": 1,
+        "Gattung": "Catasetum",
+        "ID": 123
+    },
+    "Oncidium Hybrid": {
+        "Anzahl": 1,
+        "Gattung": "Oncidium",
+        "ID": 24
+    },
+    "Oncidium forbesii": {
+        "Anzahl": 1,
+        "Gattung": "Oncidium",
+        "ID": 129
+    },
+    "Oncidium sharry baby": {
+        "Anzahl": 2,
+        "Gattung": "Oncidium",
+        "ID": 55
+    },
+    "Paphiopedilum Hybrid I": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 88
+    },
+    "Paphiopedilum Hybrid II": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 94
+    },
+    "Paphiopedilum Hybrid III": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 98
+    },
+    "Paphiopedilum Lippenwunder": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 97
+    },
+    "Paphiopedilum William Trelease": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 114
+    },
+    "Paphiopedilum callosum": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 96
+    },
+    "Paphiopedilum chamberlainianum": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 92
+    },
+    "Paphiopedilum king arthur": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 99
+    },
+    "Paphiopedilum leucochilum": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 93
+    },
+    "Paphiopedilum lowii": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 95
+    },
+    "Paphiopedilum maudiae vinicolor": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 87
+    },
+    "Paphiopedilum primulinum": {
+        "Anzahl": 1,
+        "Gattung": "Paphiopedilum",
+        "ID": 89
+    },
+    "Papilionanthe vandarum": {
+        "Anzahl": 1,
+        "Gattung": "Papilionanthe",
+        "ID": 10
+    },
+    "Paraphalaenopsis labukensis": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 138
+    },
+    "Phalaenopsis Hybrid - Martha": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 57
+    },
+    "Phalaenopsis Hybrid - Mutti": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 56
+    },
+    "Phalaenopsis Hyprid - Sonja": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 76
+    },
+    "Phalaenopsis cornu-cervi": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 61
+    },
+    "Phalaenopsis equstris": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 62
+    },
+    "Phalaenopsis gigantea": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 58
+    },
+    "Phalaenopsis liodoro": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 66
+    },
+    "Phalaenopsis lueddemaniana": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 147
+    },
+    "Phalaenopsis lueddemanniana": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 139
+    },
+    "Phalaenopsis mannii black": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 63
+    },
+    "Phalaenopsis pulchra": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 148
+    },
+    "Phalaenopsis stuartiana": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 149
+    },
+    "Phalaenopsis tetraspis": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 59
+    },
+    "Phalaenopsis tetraspis C2": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 126
+    },
+    "Phalaenopsis violacea": {
+        "Anzahl": 1,
+        "Gattung": "Phalaenopsis",
+        "ID": 60
+    },
+    "Phalaenopsis violacea red": {
+        "Anzahl": 1,
+        "Gattung": "phalaenopsis",
+        "ID": 65
+    },
+    "Phragmipedium caudatum": {
+        "Anzahl": 1,
+        "Gattung": "Phragmipedium",
+        "ID": 90
+    },
+    "Phragmipedium grande": {
+        "Anzahl": 1,
+        "Gattung": "Phragmipedium",
+        "ID": 113
+    },
+    "Phragmipedium warscewiczianum": {
+        "Anzahl": 1,
+        "Gattung": "Phragmipedium",
+        "ID": 91
+    },
+    "Psychopsiella limminhgei ": {
+        "Anzahl": 1,
+        "Gattung": "Psychopsiella",
+        "ID": 16
+    },
+    "Psychopsis kalihi": {
+        "Anzahl": 1,
+        "Gattung": "Psychopsis",
+        "ID": 86
+    },
+    "Psychopsis mariposa": {
+        "Anzahl": 1,
+        "Gattung": "Psychopsis",
+        "ID": 85
+    },
+    "Renanthera monachica": {
+        "Anzahl": 1,
+        "Gattung": "Vanda",
+        "ID": 145
+    },
+    "Restrepia trichoglossa": {
+        "Anzahl": 1,
+        "Gattung": "Restrepia",
+        "ID": 119
+    },
+    "Rhyncholaelia aristocrat": {
+        "Anzahl": 1,
+        "Gattung": "Rhyncholaelia",
+        "ID": 70
+    },
+    "Rhyncholaelia digbyana": {
+        "Anzahl": 1,
+        "Gattung": "Rhyncholaelia",
+        "ID": 112
+    },
+    "Rhynchostylis gigantea var. harrisonianum": {
+        "Anzahl": 1,
+        "Gattung": "Rhynchostylis",
+        "ID": 7
+    },
+    "Rodriguezia lanceolata": {
+        "Anzahl": 1,
+        "Gattung": "Rodriguezia",
+        "ID": 11
+    },
+    "Rossioglossum Rawdon Jester": {
+        "Anzahl": 1,
+        "Gattung": "Rossioglossum",
+        "ID": 37
+    },
+    "Sedirea japonica": {
+        "Anzahl": 1,
+        "Gattung": "sedirea",
+        "ID": 64
+    },
+    "Stanhopea graveolens": {
+        "Anzahl": 1,
+        "Gattung": "Stanhopea",
+        "ID": 28
+    },
+    "Stanhopea tigrina": {
+        "Anzahl": 1,
+        "Gattung": "Stanhopea",
+        "ID": 29
+    },
+    "Stanhopea wardii": {
+        "Anzahl": 0,
+        "Gattung": "Stanhopea",
+        "ID": 21
+    },
+    "Tillandsia andreana": {
+        "Anzahl": 1,
+        "Gattung": "Tillandsia",
+        "ID": 121
+    },
+    "Tolumnia Golden Fan": {
+        "Anzahl": 1,
+        "Gattung": "Tolumnia",
+        "ID": 128
+    },
+    "Tolumnia Mocha Dot": {
+        "Anzahl": 1,
+        "Gattung": "Tolumnia",
+        "ID": 127
+    },
+    "Tolumnia scandens": {
+        "Anzahl": 1,
+        "Gattung": "Tolumnia",
+        "ID": 132
+    },
+    "Trichopilia apache": {
+        "Anzahl": 1,
+        "Gattung": "Trichopilia",
+        "ID": 22
+    },
+    "Trichopilia marginata": {
+        "Anzahl": 1,
+        "Gattung": "Trichopilia",
+        "ID": 23
+    },
+    "Vanda coerulea": {
+        "Anzahl": 1,
+        "Gattung": "Vanda",
+        "ID": 6
+    },
+    "Vanda denisoniana": {
+        "Anzahl": 1,
+        "Gattung": "Vanda",
+        "ID": 5
+    },
+    "Vanda tricolor var. suavis": {
+        "Anzahl": 1,
+        "Gattung": "Vanda",
+        "ID": 142
+    },
+    "Vittaria lineata": {
+        "Anzahl": 1,
+        "Gattung": "Farn",
+        "ID": 120
+    },
+    "Wuttipanara manoonya": {
+        "Anzahl": 1,
+        "Gattung": "Wuttipanara",
+        "ID": 26
+    },
+    "Zygopetalum Hybrid": {
+        "Anzahl": 1,
+        "Gattung": "Zygopetalum",
+        "ID": 48
+    }
+}
