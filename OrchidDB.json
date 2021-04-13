@@ -2,7 +2,14 @@
     "Aechmea gamosepala": {
         "Anzahl": 1,
         "Gattung": "Bromelie",
-        "ID": 122
+        "ID": 122,
+        "Internet": "http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=200003637",
+        "Klima": 4,
+        "Kultur": 3,
+        "Licht": 2,
+        "Pflege": "",
+        "Ruhe": 1,
+        "Wasser": 2
     },
     "Aerangis kirkii": {
         "Anzahl": 1,
@@ -46,8 +53,20 @@
         "Ruhe": 0,
         "Wasser": 0
     },
-    "Ascocentrum miniatum x Doritis pulcherrima": {
+    "Ascocentrum miniatum": {
         "Anzahl": 1,
+        "Gattung": "Vanda",
+        "ID": 140,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 3,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
+    },
+    "Ascocentrum miniatum x Doritis pulcherrima": {
+        "Anzahl": 2,
         "Gattung": "Ascocentrum",
         "ID": 25,
         "Internet": "",
@@ -55,18 +74,6 @@
         "Kultur": 0,
         "Licht": 0,
         "Pflege": "",
-        "Ruhe": 0,
-        "Wasser": 0
-    },
-    "Ascocentrum miniatutum": {
-        "Anzahl": 1,
-        "Gattung": "Vanda",
-        "ID": 140,
-        "Internet": "http://www.orchidspecies.com/ascocminiatum.htm",
-        "Klima": 0,
-        "Kultur": 3,
-        "Licht": 0,
-        "Pflege": "https://travaldo.blogspot.com/2018/01/ascocentrum-miniatum-care-and-culture.html",
         "Ruhe": 0,
         "Wasser": 0
     },
@@ -161,7 +168,14 @@
     "Bulbophyllum lobbii": {
         "Anzahl": 1,
         "Gattung": "Bulbophyllum",
-        "ID": 43
+        "ID": 43,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 1,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Bulbophyllum macranthum": {
         "Anzahl": 1,
@@ -179,9 +193,16 @@
         "ID": 13
     },
     "Bulbophyllum sumatranum": {
-        "Anzahl": 1,
+        "Anzahl": 0,
         "Gattung": "Bulbophyllum",
-        "ID": 14
+        "ID": 14,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Catasetum Louise Clarke": {
         "Anzahl": 1,
@@ -234,22 +255,50 @@
     "Cattleya labiata": {
         "Anzahl": 1,
         "Gattung": "Cattleya",
-        "ID": 130
+        "ID": 164,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
+    },
+    "Cattleya labiata var. coerulea": {
+        "Anzahl": 1,
+        "Gattung": "Cattleya",
+        "ID": 130,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Cattleya leopoldii": {
-        "Anzahl": 1,
+        "Anzahl": 4,
         "Gattung": "Cattleya",
-        "ID": 151
-    },
-    "Cattleya lueddemaniana": {
-        "Anzahl": 1,
-        "Gattung": "Cattleya",
-        "ID": 152
+        "ID": 151,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 5,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Cattleya lueddemanniana": {
-        "Anzahl": 1,
+        "Anzahl": 2,
         "Gattung": "Cattleya",
-        "ID": 141
+        "ID": 141,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Cattleya rex": {
         "Anzahl": 1,
@@ -444,14 +493,17 @@
         "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/Dendrobium Findlayanum.jpg"
     },
     "Dendrobium kingianum": {
-        "Anzahl": 4,
+        "Anzahl": 3,
         "Gattung": "Dendrobium ",
         "ID": 32,
         "Internet": "",
         "Klima": 0,
         "Kultur": 0,
+        "Licht": 0,
         "Pflege": "",
-        "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/Dendrobiumking.jpg"
+        "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/Dendrobiumking.jpg",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Dendrobium smillieae": {
         "Anzahl": 1,
@@ -548,7 +600,14 @@
     "Guzmania sanguinea": {
         "Anzahl": 1,
         "Gattung": "Bromelie",
-        "ID": 116
+        "ID": 116,
+        "Internet": "http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=200003637",
+        "Klima": 4,
+        "Kultur": 3,
+        "Licht": 1,
+        "Pflege": "",
+        "Ruhe": 1,
+        "Wasser": 2
     },
     "Holcoglossum kimballianum": {
         "Anzahl": 1,
@@ -586,10 +645,29 @@
         "Ruhe": 2,
         "Wasser": 2
     },
-    "Marcgravia sintenisii": {
+    "Macradenia multiflora": {
         "Anzahl": 1,
+        "Gattung": "Macradenia",
+        "ID": 163,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 1,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
+    },
+    "Marcgravia sintenisii": {
+        "Anzahl": 0,
         "Gattung": "Rankpflanze",
-        "ID": 117
+        "ID": 117,
+        "Internet": "http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=200003637",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Masdevalia Hybrid (gelb)": {
         "Anzahl": 1,
@@ -650,9 +728,16 @@
         "Wasser": 2
     },
     "Oncidium Hybrid": {
-        "Anzahl": 1,
+        "Anzahl": 0,
         "Gattung": "Oncidium",
-        "ID": 24
+        "ID": 24,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Oncidium forbesii": {
         "Anzahl": 1,
@@ -801,15 +886,17 @@
         "Ruhe": 0,
         "Wasser": 0
     },
-    "Phalaenopsis lueddemaniana": {
-        "Anzahl": 1,
-        "Gattung": "Phalaenopsis",
-        "ID": 147
-    },
     "Phalaenopsis lueddemanniana": {
-        "Anzahl": 1,
+        "Anzahl": 2,
         "Gattung": "Phalaenopsis",
-        "ID": 139
+        "ID": 139,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Phalaenopsis mannii black": {
         "Anzahl": 1,
@@ -817,9 +904,16 @@
         "ID": 63
     },
     "Phalaenopsis pulchra": {
-        "Anzahl": 1,
+        "Anzahl": 2,
         "Gattung": "Phalaenopsis",
-        "ID": 148
+        "ID": 148,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Phalaenopsis stuartiana": {
         "Anzahl": 1,
@@ -893,9 +987,16 @@
         "ID": 85
     },
     "Renanthera monachica": {
-        "Anzahl": 1,
+        "Anzahl": 4,
         "Gattung": "Vanda",
-        "ID": 145
+        "ID": 145,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 3,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Restrepia trichoglossa": {
         "Anzahl": 1,
@@ -1027,12 +1128,43 @@
     "Vittaria lineata": {
         "Anzahl": 1,
         "Gattung": "Farn",
-        "ID": 120
+        "ID": 120,
+        "Internet": "http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=200003637",
+        "Klima": 0,
+        "Kultur": 1,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Wuttipanara manoonya": {
         "Anzahl": 1,
         "Gattung": "Wuttipanara",
         "ID": 26
+    },
+    "ZZZ REplace": {
+        "Anzahl": 0,
+        "Gattung": "Phalaenopsis",
+        "ID": 147,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
+    },
+    "ZZZ Replace 2": {
+        "Anzahl": 0,
+        "Gattung": "Cattleya",
+        "ID": 152,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Zygopetalum Hybrid": {
         "Anzahl": 1,

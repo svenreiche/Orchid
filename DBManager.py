@@ -5,8 +5,34 @@ from reportlab.pdfgen import canvas
 class DBManager:
     def __init__(self):
         self.db = {}
+        kultur =['Unbekannt', 'Topf', 'Korb', 'Aufgebunden', 'P.E.T.', 'Glas']
+        klima = ['Unbekannt', 'Kalt', 'Kalt/Temperiert', 'Temperiert', 'Temperiert/Warm', 'Warm']
+        wasser = ['Unbekannt', 'Taeglich Bespruehen', 'Viel Wasser', 'Feucht Halten', 'Austrocknen Lassen']
+        ruhe = ['Unbekannt', 'Keine Pause', 'Wenig Wasser', 'Kein Wasser']
+        licht = ['Unbekannt', 'etwa 40.000 Lux', 'etwa 30.000 Lux', 'etwa 20.000 Lux', 'etwa 10.000 Liux']
+        self.labels = {'Kultur': kultur, 'Klima': klima, 'Wasser': wasser, 'Ruhe': ruhe, 'Licht': licht}
         self.file = '/media/reiche/Storage/PyCharm Projects/Ochid/OrchidDB.json'
         self.readDB()
+
+    def checkIntField(self,name,key):
+        if not name in self.db.keys():
+            return 0
+        if not key in self.db[name].keys():
+            return 0
+        return int(self.db[name][key])
+
+    def checkStrField(self, name, key):
+        if not name in self.db.keys():
+            return ''
+        if not key in self.db[name].keys():
+            return ''
+        return str(self.db[name][key])
+    
+    def checkID(self,id):
+        for key in self.db.keys():
+            if self.db[key]['ID'] == id:
+                return key
+        return None
 
     def readDB(self):
         self.db.clear()

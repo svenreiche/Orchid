@@ -17,9 +17,16 @@ class Orchid(QMainWindow, Ui_OrchidGUI):
 
         self.db = DBManager.DBManager()
         self.search()
+        # constuct the labels
+        self.setComboBox(self.UIKultur, self.db.labels['Kultur'])
+        self.setComboBox(self.UIKlima, self.db.labels['Klima'])
+        self.setComboBox(self.UIWasser, self.db.labels['Wasser'])
+        self.setComboBox(self.UIRuhe, self.db.labels['Ruhe'])
+        self.setComboBox(self.UILicht, self.db.labels['Licht'])
+
         # events
         self.UISuche.textEdited.connect(self.search)
-        self.UIResult.currentItemChanged.connect(self.info)
+        self.UIResult.currentItemChanged.connect(self.infofromlist)
         self.UISave.clicked.connect(self.saveRecord)
         self.UINew.clicked.connect(self.newRecord)
         self.UIImageUpdate.clicked.connect(self.updateImage)
@@ -29,6 +36,11 @@ class Orchid(QMainWindow, Ui_OrchidGUI):
         self.actionReport.triggered.connect(self.reportDB)
         self.recordID=-1
 
+    def setComboBox(self,combo,labs):
+        combo.clear()
+        for lab in labs:
+            combo.addItem(lab)
+        combo.setCurrentIndex(0)
 
     def reportDB(self):
         self.db.report()
@@ -89,95 +101,73 @@ class Orchid(QMainWindow, Ui_OrchidGUI):
             return
         self.db.db[name] = {}
         self.db.db[name]['ID'] = maxID
-        self.db.db[name]['Kultur'] = self.UIKultur.currentIndex()
-        self.db.db[name]['Klima'] = self.UIKlima.currentIndex()
-        self.db.db[name]['Wasser'] = self.UIWasser.currentIndex()
-        self.db.db[name]['Ruhe'] = self.UIRuhe.currentIndex()
-        self.db.db[name]['Licht'] = self.UILicht.currentIndex()
-        self.db.db[name]['Anzahl'] = 1
-        self.db.db[name]['Gattung'] = str(self.UIGattung.text())
-        self.db.db[name]['Internet'] = str(self.UIInternetLink.text())
-        self.db.db[name]['Pflege'] = str(self.UIPflege.text())
-        self.db.db[name]['Photo'] = str('')
-        # make sure that the new record is also displayed
-        self.UISuche.setText('')
-        self.search()
+        self.recordID = maxID
+        self.saveRecord()
+        self.info(name)
 
     def saveRecord(self):
         if self.recordID < 0:
-                return
+            return
         name = str(self.UIName.text())
-        if name in self.db.db.keys():
-            if self.db.db[name]['ID'] == self.recordID:   # simplest case - name has not changed
-                self.db.db[name]['Kultur'] = self.UIKultur.currentIndex()
-                self.db.db[name]['Klima'] = self.UIKlima.currentIndex()
-                self.db.db[name]['Wasser'] = self.UIWasser.currentIndex()
-                self.db.db[name]['Licht'] = self.UILicht.currentIndex()
-                self.db.db[name]['Ruhe'] = self.UIRuhe.currentIndex()
-                self.db.db[name]['Anzahl'] = int(str(self.UIExemplare.text()))
-                self.db.db[name]['Gattung'] = str(self.UIGattung.text())
-                self.db.db[name]['Internet'] = str(self.UIInternetLink.text())
-                self.db.db[name]['Pflege'] = str(self.UIPflege.text())
-            else:
-                QtWidgets.QMessageBox.about(self,'Duplicate Entry','The record %s exists already' % name)
-        else:    # check if the ID is the same
-            for key in self.db.db.keys():
-                if self.recordID == self.db.db[key]['ID']:
-                    self.db.db[name]=self.db.db[key]
-                    del self.db.db[key]
-                    self.search()
-                    return
 
+        if not name in self.db.db.keys():   # key name has changed
+            checkID = self.db.checkID(self.recordID)  # get former name for ID
+            if checkID is None:
+                return
+            self.db.db[name] = self.db.db[checkID]
+            del self.db.db[checkID]
+        else:
+            if not self.recordID == self.db.db[name]['ID']:   # name was changed to already existing key name
+                QtWidgets.QMessageBox.about(self, 'Duplicate Entry', 'The record %s exists already' % name)
+                return
+        self.db.db[name]['Kultur'] = self.UIKultur.currentIndex()
+        self.db.db[name]['Klima'] = self.UIKlima.currentIndex()
+        self.db.db[name]['Wasser'] = self.UIWasser.currentIndex()
+        self.db.db[name]['Licht'] = self.UILicht.currentIndex()
+        self.db.db[name]['Ruhe'] = self.UIRuhe.currentIndex()
+        self.db.db[name]['Anzahl'] = int(str(self.UIExemplare.text()))
+        self.db.db[name]['Gattung'] = str(self.UIGattung.text())
+        self.db.db[name]['Internet'] = str(self.UIInternetLink.text())
+        self.db.db[name]['Pflege'] = str(self.UIPflege.text())
 
-    def info(self, item):
-        if item is None:
+    def info(self, name):
+        if name is None or not name in self.db.db.keys():
             self.UIName.clear()
             self.UIGattung.clear()
             self.UIExemplare.clear()
+            self.UIKultur.setCurrentIndex(0)
+            self.UIKlima.setCurrentIndex(0)
+            self.UIWasser.setCurrentIndex(0)
+            self.UILicht.setCurrentIndex(0)
+            self.UIRuhe.setCurrentIndex(0)
+            self.UIPflege.clear()
+            self.UIInternetLink.clear()
             self.recordID = -1
             return
-        name = str(item.text())
         item = self.db.db[name]
+        self.recordID = item['ID']
         self.UIName.setText(name)
         self.UIGattung.setText(str(item['Gattung']))
         self.UIExemplare.setText('%d' % item['Anzahl'])
-        if 'Kultur' in item.keys():
-            self.UIKultur.setCurrentIndex(item['Kultur'])
-        else:
-            self.UIKultur.setCurrentIndex(0)
-        if 'Klima' in item.keys():
-            self.UIKlima.setCurrentIndex(item['Klima'])
-        else:
-            self.UIKlima.setCurrentIndex(0)
-        if 'Licht' in item.keys():
-            self.UILicht.setCurrentIndex(item['Licht'])
-        else:
-            self.UILicht.setCurrentIndex(0)
-        if 'Wasser' in item.keys():
-            self.UIWasser.setCurrentIndex(item['Wasser'])
-        else:
-            self.UIWasser.setCurrentIndex(0)
-        if 'Ruhe' in item.keys():
-            self.UIRuhe.setCurrentIndex(item['Ruhe'])
-        else:
-            self.UIRuhe.setCurrentIndex(0)
-        if 'Pflege' in item.keys():
-            self.UIPflege.setText(item['Pflege'])
-        else:
-            self.UIPflege.setText('')
-        if 'Internet' in item.keys():
-            self.UIInternetLink.setText(item['Internet'])
-        else:
-            self.UIInternetLink.setText('')
+        self.UIKultur.setCurrentIndex(self.db.checkIntField(name, 'Kultur'))
+        self.UIKlima.setCurrentIndex(self.db.checkIntField(name, 'Klima'))
+        self.UIWasser.setCurrentIndex(self.db.checkIntField(name, 'Wasser'))
+        self.UIRuhe.setCurrentIndex(self.db.checkIntField(name, 'Ruhe'))
+        self.UILicht.setCurrentIndex(self.db.checkIntField(name, 'Licht'))
+        self.UIInternetLink.setText(self.db.checkStrField(name, 'Internet'))
+        self.UIPflege.setText(self.db.checkStrField(name, 'Pflege'))
         if 'Photo' in item.keys() and len(item['Photo'])>0:
             pixmap = QPixmap(item['Photo'])
             self.UIImage.setPixmap(pixmap.scaled(self.UIImage.width(),self.UIImage.height(),QtCore.Qt.KeepAspectRatio))
         else:
             self.UIImage.clear()
 
-        self.recordID = item['ID']
-        print(self.recordID)
-
+    def infofromlist(self):
+        entry=self.UIResult.currentItem()
+        if entry is None:
+            self.info(None)
+        else:
+            self.info(str(entry.text()))
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
