@@ -27,7 +27,7 @@ class DBManager:
         if not key in self.db[name].keys():
             return ''
         return str(self.db[name][key])
-    
+
     def checkID(self,id):
         for key in self.db.keys():
             if self.db[key]['ID'] == id:

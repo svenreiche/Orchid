@@ -66,7 +66,7 @@ class Orchid(QMainWindow, Ui_OrchidGUI):
         if fileName:
             name = str(self.UIName.text())
             self.db.db[name]['Photo']=fileName
-            self.info(self.UIResult.currentItem())
+            self.info(str(self.UIResult.currentItem().text()))
 
 
     def saveDB(self):
@@ -131,6 +131,7 @@ class Orchid(QMainWindow, Ui_OrchidGUI):
         self.db.db[name]['Pflege'] = str(self.UIPflege.text())
 
     def info(self, name):
+        print(name)
         if name is None or not name in self.db.db.keys():
             self.UIName.clear()
             self.UIGattung.clear()

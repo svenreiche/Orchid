@@ -27,73 +27,86 @@
         "Gattung": "Aerides",
         "ID": 8,
         "Internet": "http://www.orchidspecies.com/aerideshoulletiana.htm",
-        "Klima": 0,
-        "Kultur": 0,
-        "Pflege": ""
+        "Klima": 4,
+        "Kultur": 2,
+        "Licht": 2,
+        "Pflege": "https://travaldo.blogspot.com/2017/12/grow-and-care-aerides-houlletiana-orchid.html",
+        "Ruhe": 0,
+        "Wasser": 1
     },
     "Angraecum longicalcar": {
         "Anzahl": 1,
         "Gattung": "Angraecum",
         "ID": 157,
         "Internet": "http://www.orchidspecies.com/anglongicalcar.htm",
-        "Klima": 0,
-        "Kultur": 0,
-        "Pflege": "https://travaldo.blogspot.com/2018/09/angraecum-longicalcar-orchid-plant-care-and-culture.html"
+        "Klima": 4,
+        "Kultur": 1,
+        "Licht": 1,
+        "Pflege": "https://travaldo.blogspot.com/2018/09/angraecum-longicalcar-orchid-plant-care-and-culture.html",
+        "Ruhe": 2,
+        "Wasser": 2
     },
     "Angraecum viguieri": {
         "Anzahl": 1,
         "Gattung": "Angraecum",
         "ID": 155,
         "Internet": "http://www.orchidspecies.com/angviguerii.htm",
-        "Klima": 0,
+        "Klima": 4,
         "Kultur": 3,
-        "Licht": 0,
+        "Licht": 2,
         "Pflege": "https://travaldo.blogspot.com/2018/09/angraecum-viguieri-orchid-plant-care-and-culture.html",
         "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/AngraecumViguieri_ext.jpg",
-        "Ruhe": 0,
-        "Wasser": 0
+        "Ruhe": 1,
+        "Wasser": 1
     },
     "Ascocentrum miniatum": {
         "Anzahl": 1,
         "Gattung": "Vanda",
         "ID": 140,
-        "Internet": "",
-        "Klima": 0,
+        "Internet": "http://www.orchidspecies.com/ascocminiatum.htm",
+        "Klima": 5,
         "Kultur": 3,
-        "Licht": 0,
-        "Pflege": "",
-        "Ruhe": 0,
-        "Wasser": 0
+        "Licht": 2,
+        "Pflege": "https://travaldo.blogspot.com/2018/01/ascocentrum-miniatum-care-and-culture.html",
+        "Ruhe": 1,
+        "Wasser": 1
     },
     "Ascocentrum miniatum x Doritis pulcherrima": {
         "Anzahl": 2,
         "Gattung": "Ascocentrum",
         "ID": 25,
         "Internet": "",
-        "Klima": 0,
-        "Kultur": 0,
-        "Licht": 0,
+        "Klima": 4,
+        "Kultur": 2,
+        "Licht": 2,
         "Pflege": "",
-        "Ruhe": 0,
-        "Wasser": 0
+        "Ruhe": 1,
+        "Wasser": 1
     },
     "Barkeria spectabilis": {
         "Anzahl": 1,
         "Gattung": "Barkeria",
         "ID": 154,
         "Internet": "http://www.orchidspecies.com/barkspectablis.htm",
-        "Klima": 2,
+        "Klima": 3,
         "Kultur": 3,
-        "Licht": 0,
-        "Pflege": "",
+        "Licht": 1,
+        "Pflege": "https://www.aos.org/orchids/orchids-a-to-z/letter-b/barkeria.aspx",
         "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/Barkeria_spectabilis.jpg",
-        "Ruhe": 0,
-        "Wasser": 0
+        "Ruhe": 3,
+        "Wasser": 2
     },
     "Beallara Patricia Mc Cully": {
         "Anzahl": 1,
-        "Gattung": "Beallara",
-        "ID": 146
+        "Gattung": "Oncidium",
+        "ID": 146,
+        "Internet": "",
+        "Klima": 4,
+        "Kultur": 1,
+        "Licht": 3,
+        "Pflege": "",
+        "Ruhe": 2,
+        "Wasser": 4
     },
     "Bifrenaria harrisoniae": {
         "Anzahl": 1,
@@ -104,6 +117,7 @@
         "Kultur": 2,
         "Licht": 1,
         "Pflege": "https://travaldo.blogspot.com/2018/01/bifrenaria-harrisoniae-care-and-culture.html",
+        "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/Bifrenialhaerris.jpg",
         "Ruhe": 2,
         "Wasser": 4
     },
@@ -142,13 +156,13 @@
         "Anzahl": 1,
         "Gattung": "Bulbophyllum",
         "ID": 17,
-        "Internet": "",
-        "Klima": 0,
+        "Internet": "http://www.orchidspecies.com/cirrhopetalumfascinator.htm",
+        "Klima": 4,
         "Kultur": 3,
-        "Licht": 0,
-        "Pflege": "",
-        "Ruhe": 0,
-        "Wasser": 0
+        "Licht": 3,
+        "Pflege": "https://travaldo.blogspot.com/2018/11/bulbophyllum-orchid-plant-care-and-culture.html",
+        "Ruhe": 1,
+        "Wasser": 1
     },
     "Bulbophyllum grandiflorum": {
         "Anzahl": 1,
@@ -329,20 +343,23 @@
         "Anzahl": 1,
         "Gattung": "Chaubardia",
         "ID": 160,
-        "Internet": "",
-        "Klima": 0,
-        "Kultur": 0,
-        "Pflege": ""
+        "Internet": "http://www.orchidspecies.com/huntleyaheteroclita.htm",
+        "Klima": 4,
+        "Kultur": 1,
+        "Licht": 3,
+        "Pflege": "https://www.aos.org/orchids/orchids-a-to-z/letter-c/chaubardia.aspx",
+        "Ruhe": 0,
+        "Wasser": 3
     },
     "Chysis limminghei": {
         "Anzahl": 1,
         "Gattung": "Chysis",
         "ID": 133,
-        "Internet": "",
+        "Internet": "http://www.orchidspecies.com/chysilimminhei.htm",
         "Klima": 4,
         "Kultur": 4,
         "Licht": 2,
-        "Pflege": "",
+        "Pflege": "https://www.aos.org/orchids/orchids-a-to-z/letter-c/chysis.aspx",
         "Ruhe": 2,
         "Wasser": 2
     },
@@ -350,10 +367,13 @@
         "Anzahl": 1,
         "Gattung": "Cirrhaea",
         "ID": 156,
-        "Internet": "",
-        "Klima": 0,
-        "Kultur": 0,
-        "Pflege": ""
+        "Internet": "http://www.orchidspecies.com/cirrhalongiracemosa.htm",
+        "Klima": 3,
+        "Kultur": 1,
+        "Licht": 2,
+        "Pflege": "https://www.aos.org/orchids/orchids-a-to-z/letter-c/cirrhaea.aspx",
+        "Ruhe": 2,
+        "Wasser": 2
     },
     "Coelogyne cristata": {
         "Anzahl": 1,
@@ -540,12 +560,15 @@
     },
     "Dimorphorchis rossii": {
         "Anzahl": 1,
-        "Gattung": "Dimorphorchis",
+        "Gattung": "Vanda",
         "ID": 162,
-        "Internet": "",
-        "Klima": 0,
-        "Kultur": 0,
-        "Pflege": ""
+        "Internet": "http://www.orchidspecies.com/dimrossii.htm",
+        "Klima": 4,
+        "Kultur": 2,
+        "Licht": 2,
+        "Pflege": "https://www.seattleorchid.com/Dimorphorchis-rossii-p/tsdimo-rossii.htm",
+        "Ruhe": 1,
+        "Wasser": 1
     },
     "Encyclia cochleata": {
         "Anzahl": 1,
@@ -785,12 +808,26 @@
     "Paphiopedilum callosum": {
         "Anzahl": 1,
         "Gattung": "Paphiopedilum",
-        "ID": 96
+        "ID": 96,
+        "Internet": "http://www.orchidspecies.com/paphcallosum.htm",
+        "Klima": 3,
+        "Kultur": 1,
+        "Licht": 3,
+        "Pflege": "https://travaldo.blogspot.com/2018/10/paphiopedilum-callosum-orchid-plant-care-and-culture.html",
+        "Ruhe": 2,
+        "Wasser": 3
     },
     "Paphiopedilum chamberlainianum": {
         "Anzahl": 1,
         "Gattung": "Paphiopedilum",
-        "ID": 92
+        "ID": 92,
+        "Internet": "http://www.orchidspecies.com/paphchamberlainianum.htm",
+        "Klima": 3,
+        "Kultur": 1,
+        "Licht": 3,
+        "Pflege": "https://travaldo.blogspot.com/2017/12/grow-and-care-paphiopedilum-chamberlainianum-orchid.html",
+        "Ruhe": 2,
+        "Wasser": 3
     },
     "Paphiopedilum king arthur": {
         "Anzahl": 1,
@@ -808,22 +845,50 @@
     "Paphiopedilum leucochilum": {
         "Anzahl": 1,
         "Gattung": "Paphiopedilum",
-        "ID": 93
+        "ID": 93,
+        "Internet": "http://www.orchidspecies.com/paphleucochilum.htm",
+        "Klima": 5,
+        "Kultur": 1,
+        "Licht": 3,
+        "Pflege": "https://travaldo.blogspot.com/2018/05/paphiopedilum-godefroyae-care-and-culture.html",
+        "Ruhe": 2,
+        "Wasser": 3
     },
     "Paphiopedilum lowii": {
         "Anzahl": 1,
         "Gattung": "Paphiopedilum",
-        "ID": 95
+        "ID": 95,
+        "Internet": "http://www.orchidspecies.com/paphlowii.htm",
+        "Klima": 4,
+        "Kultur": 1,
+        "Licht": 2,
+        "Pflege": "https://travaldo.blogspot.com/2017/12/grow-and-care-paphiopedilum-lowii-orchid.html",
+        "Ruhe": 2,
+        "Wasser": 3
     },
     "Paphiopedilum maudiae vinicolor": {
         "Anzahl": 1,
         "Gattung": "Paphiopedilum",
-        "ID": 87
+        "ID": 87,
+        "Internet": "https://www.orchidweb.com/blog/the-stunning-flowers-and-foliage-of-paphiopedilum-maudiae-types/",
+        "Klima": 4,
+        "Kultur": 0,
+        "Licht": 3,
+        "Pflege": "https://travaldo.blogspot.com/2018/10/paphiopedilum-maudiae-orchid-hybrid-care-and-culture.html",
+        "Ruhe": 1,
+        "Wasser": 3
     },
     "Paphiopedilum primulinum": {
         "Anzahl": 1,
         "Gattung": "Paphiopedilum",
-        "ID": 89
+        "ID": 89,
+        "Internet": "http://www.orchidspecies.com/paphprimulinum.htm",
+        "Klima": 3,
+        "Kultur": 1,
+        "Licht": 3,
+        "Pflege": "https://travaldo.blogspot.com/2018/05/paphiopedilum-primulinum-care-and-culture.html",
+        "Ruhe": 2,
+        "Wasser": 3
     },
     "Papilionanthe vandarum": {
         "Anzahl": 1,
@@ -866,7 +931,15 @@
     "Phalaenopsis equstris": {
         "Anzahl": 1,
         "Gattung": "Phalaenopsis",
-        "ID": 62
+        "ID": 62,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/PhalEquis.jpg",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Phalaenopsis gigantea": {
         "Anzahl": 1,
@@ -882,7 +955,7 @@
         "Kultur": 0,
         "Licht": 0,
         "Pflege": "",
-        "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/PhalLiodoro.jpg",
+        "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/PhalLiodoro2.jpg",
         "Ruhe": 0,
         "Wasser": 0
     },
@@ -895,6 +968,7 @@
         "Kultur": 0,
         "Licht": 0,
         "Pflege": "",
+        "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/PhalLueddemania.jpg",
         "Ruhe": 0,
         "Wasser": 0
     },
@@ -923,7 +997,15 @@
     "Phalaenopsis tetraspis": {
         "Anzahl": 1,
         "Gattung": "Phalaenopsis",
-        "ID": 59
+        "ID": 59,
+        "Internet": "",
+        "Klima": 0,
+        "Kultur": 0,
+        "Licht": 0,
+        "Pflege": "",
+        "Photo": "/media/reiche/Storage/PyCharm Projects/Ochid/Photos/PhalTetraspis.jpg",
+        "Ruhe": 0,
+        "Wasser": 0
     },
     "Phalaenopsis tetraspis C2": {
         "Anzahl": 1,
@@ -959,17 +1041,38 @@
     "Phragmipedium caudatum": {
         "Anzahl": 1,
         "Gattung": "Phragmipedium",
-        "ID": 90
+        "ID": 90,
+        "Internet": "http://www.orchidspecies.com/phragcaudatum.htm",
+        "Klima": 3,
+        "Kultur": 1,
+        "Licht": 3,
+        "Pflege": "https://travaldo.blogspot.com/2018/02/phragmipedium-caudatum-care-and-culture.html",
+        "Ruhe": 1,
+        "Wasser": 3
     },
     "Phragmipedium grande": {
         "Anzahl": 1,
         "Gattung": "Phragmipedium",
-        "ID": 113
+        "ID": 113,
+        "Internet": "",
+        "Klima": 3,
+        "Kultur": 1,
+        "Licht": 3,
+        "Pflege": "",
+        "Ruhe": 1,
+        "Wasser": 3
     },
     "Phragmipedium warscewiczianum": {
         "Anzahl": 1,
         "Gattung": "Phragmipedium",
-        "ID": 91
+        "ID": 91,
+        "Internet": "http://www.orchidspecies.com/phragwallisii.htm",
+        "Klima": 3,
+        "Kultur": 1,
+        "Licht": 2,
+        "Pflege": "https://travaldo.blogspot.com/2018/04/phragmipedium-wallisii-care-and-culture.html",
+        "Ruhe": 1,
+        "Wasser": 3
     },
     "Psychopsiella limminhgei ": {
         "Anzahl": 1,
